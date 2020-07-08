@@ -3,33 +3,35 @@
 # (c) Shrimadhav U K
 
 help_string = f'''
-/mirror: Start mirroring the link to google drive
+🔥/mirror: Start mirroring the link (magnetic link, a torrent link, or a direct link) to google drive
 
-/mirrorup: Start mirroring the link to Telegram
+🔥/mirrorup: Start mirroring the link (magnetic link, a torrent link, or a direct link) to Telegram
 
-/tmirror unzip | unrar | untar: Reply to any File on Telegram Start mirroring and if downloaded file is any archive , extracts it to google drive
+🔥/tmirror: Start Telegram link to google drive
 
-/mirror unzip | unrar | untar: starts mirroring and if downloaded file is any archive , extracts it to google drive
+🔥/tmirror unzip | unrar | untar: Reply to any File on Telegram Start mirroring and if downloaded file is any archive , extracts it to google drive
 
-/mirror archive: start mirroring and upload the archived (.tar) version of the download
+🔥/mirror unzip | unrar | untar: starts mirroring and if downloaded file is any archive , extracts it to google drive
 
-/ytdl: Reply To message Link To Mirror through youtube-dl and Upload to Telegram
+🔥/mirror archive: start mirroring and upload the archived (.tar) version of the download
 
-/ytdl gdrive: Reply To message Link To Mirror through youtube-dl and Upload to GDrive
+🔥/ytdl: Reply To message Link To Mirror through youtube-dl and Upload to Telegram
 
-/cancel (GID): Reply to the message by which the download was initiated and that download will be cancelled
+🔥/ytdl gdrive: Reply To message Link To Mirror through youtube-dl and Upload to GDrive
 
-/status: Shows a status of all the downloads
+🔥/cancel (GID): Reply to the message by which the download was initiated and that download will be cancelled
 
-/stats: Show Stats of the machine the bot is hosted on
+🔥/status: Shows a status of all the downloads
 
-/ping: Test Ping 
+🔥/stats: Show Stats of the machine the bot is hosted on
 
-/getsize: to check the size of this bot destination folder on gdrive
+🔥/ping: Test Ping 
 
-/index: to get the index link where all files are stored
-'''
+🔥/getsize: to check the size of this bot destination folder on gdrive
 
+🔥/index: to get the index link where all files are stored
+
+------------------****---------------------
 async def help_bot_message(client, message):
     await message.reply_text(help_string)
 
